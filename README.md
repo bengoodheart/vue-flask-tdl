@@ -1,4 +1,5 @@
-# webapp
+# vue-flask-tdl
+Connects with a cloud hosted API created with flask. 
 
 ## Project setup
 ```
