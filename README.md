@@ -16,9 +16,10 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Docker
 ```
-npm run lint
+docker build . webapp-test
+docker run -v ${PWD}:/app -v /app/node_modules -p 8081:8080 --rm webapp-test
 ```
 
 ### Customize configuration
